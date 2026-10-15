@@ -1,0 +1,99 @@
+
+body {
+    font-family:'Times New Roman';
+    background: #fffaf8;
+    color: #503642;
+}
+
+.navbar-brand, .icon, .service-link {
+    color: #cf5d88;
+
+}
+.logo-icon {
+    background: #cf5d88;
+    color: white;
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #503642;
+}
+
+.nav-link:hover, .service-link:hover {
+    color: #a83f69;
+}
+
+.hero, .about {
+    background: #fceaf1;
+}
+
+.hero h1 span {
+    color: #cf5d88;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.pink-btn {
+    background: #cf5d88;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.pink-btn:hover {
+    background: #a83f69;
+    color: white;
+}
+
+.card, .contact-form {
+    border: 1px solid #f6dce6;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px #efdce4;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.service-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-form {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+}
+
+.form-control:focus {
+    border-color: #cf5d88;
+    box-shadow: 0 0 0 3px #fceaf1;
+}
+
+.footer {
+    background: #633d52;
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .hero {
+        text-align: center;
+    }
+}
