@@ -9,6 +9,9 @@ body {
     color: #cf5d88;
 
 }
+.navbar-brand{
+    display: wrap;
+}
 .logo-icon {
     background: #cf5d88;
     color: white;
@@ -92,8 +95,3 @@ body {
     color: white;
 }
 
-@media (max-width: 576px) {
-    .hero {
-        text-align: center;
-    }
-}
